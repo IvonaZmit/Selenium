@@ -70,4 +70,8 @@ for i in range(1,201):
             urls.append(url)
 for url in urls:
     driver.get(url)
-time.sleep(1000)
+#time.sleep(1000)
+
+driver.quit()
+driver.close()
+

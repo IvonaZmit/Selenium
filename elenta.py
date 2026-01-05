@@ -19,7 +19,9 @@ ads_container = driver.find_element(By.CLASS_NAME,"")
 ads = ads_container.find_elements(By.CLASS_NAME,"")
 for ad in ads:
     print(ad.text)
-time.sleep(1000)
+#time.sleep(1000)
 
+driver.quit()
+driver.close()
 
 
